@@ -1,0 +1,365 @@
+/* UNIVERSAL RULESETS */
+
+@font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 200, 500, 600, 700, 800;
+    src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISc36j.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300, 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.22vw;
+    background-color: #f7f7f7;
+    padding: 4vw;
+}
+
+/* HEADER RULESETS */
+
+.myname {
+    font-family: "Exo";
+    font-size: 1.2vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.date {
+    font-family: 'Exo';
+    font-size: 1.1vw;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 0.7vw;
+}
+
+h1 {
+    font-family: 'Exo';
+    font-size: 5vw;
+    font-weight: 800;
+    margin: 3.8vw 0 4.8vw 0;
+}
+
+.gif {
+    margin-bottom: 3.8vw;
+    width: 35vw;
+    height: auto;
+}
+
+.intro {
+    width: 60%;
+    line-height: 1.8;
+}
+
+/* MAIN RULESETS */
+
+.chapter {
+    margin: 4.4vw 0;
+}
+
+h2 {
+    font-family: 'Exo';
+    font-size: 4vw;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: "Exo";
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+/* COLORS SECTION RULESETS */
+
+.colors-container {
+    width: 100%;
+    margin-bottom: 3vw;
+}
+
+.color-card {
+    box-sizing: border-box;
+    height: 21vw;
+    width: 21vw;
+    margin: 2vw 3vw 2vw 0;
+    padding: 12.5vw 2vw 2vw 2vw;
+    display: inline-block;
+}
+
+.color-name {
+    font-family: "Exo";
+    font-size: 1.4vw;
+    font-weight: 600;
+    line-height: 0%;
+}
+
+.color-code {
+    margin: 0.5vw 0 0.5vw 0;
+}
+
+.white-font {
+    color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: #0000C4;
+}
+
+.yellow {
+    background-color: #FED502;
+}
+
+.green {
+    background-color: #019329;
+}
+
+.red {
+    background-color: #CC0000;    ;
+}
+
+/* FONTS SECTION RULESETS */
+
+.fonts-container {
+    border-top: 0.1vw solid rgb(60, 60, 60);
+    box-sizing: border-box;
+    margin-top: 3.5vw;
+    padding-bottom: 5vw;
+}
+
+.font-row {
+    border-bottom: 0.1vw solid rgb(60, 60, 60);
+    padding-top: 2.5vw;
+    box-sizing: border-box;
+    padding-left: 1.5vw;
+    padding-right: 2vw;
+}
+
+.font-name {
+    font-family: "Exo";
+    font-size: 1.4vw;
+    font-weight: 600;
+    line-height: 0%;
+    display: inline;
+}
+
+.font-style {
+    line-height: 0%;
+    display: inline;
+}
+
+.h1 {
+    font-family: 'Exo';
+    font-size: 5vw;
+    font-weight: 800;
+    line-height: 0%;
+    color: rgb(30, 30, 30);
+}
+
+.h2 {
+    font-family: 'Exo';
+    font-size: 4vw;
+    font-weight: 800;
+    line-height: 32%;
+    color: rgb(30, 30, 30);
+}
+
+.h3 {
+    font-family: "Exo";
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 190%;
+    color: rgb(30, 30, 30);
+}
+
+.p3 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1.22vw;
+}
+
+/* BUTTONS SECTION RULESETS */
+
+.chapter-buttons {
+    margin-top: -3vw;
+}
+
+.buttons-container {
+    margin: 4vw 0;
+}
+
+.blue-button {
+    font-size: "Exo";
+    font-weight: 700;
+    font-size: 1.3vw;
+    background-color: #0000C4;
+    color: white;
+    border: 0.25vw solid #0000C4;
+    border-radius: 0.8vw;
+    padding: 1.5vw 3.2vw;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.blue-button:hover {
+    background-color: black;
+    color: white;
+    border: 0.25vw solid black;
+}
+
+.blue-button:active {
+    background-color: #8CCAEE;
+    color: #0074CA;
+    border: 0.25vw solid #8CCAEE;
+}
+
+.black-button {
+    font-size: "Exo";
+    font-weight: 700;
+    font-size: 1.3vw;
+    background-color: black;
+    color: white;
+    border: 0.25vw solid black;
+    border-radius: 0.8vw;
+    padding: 1.5vw 3.2vw;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.black-button:hover {
+    background-color: #0000C4;
+    color: white;
+    border: 0.25vw solid #0000C4;
+}
+
+.black-button:active {
+    background-color: #8CCAEE;
+    color: #0074CA;
+    border: 0.25vw solid #8CCAEE;
+}
+
+.yellow-button {
+    font-size: "Exo";
+    font-weight: 700;
+    font-size: 1.3vw;
+    background-color: #fed502;
+    color: black;
+    border: 0.25vw solid #fed502;
+    border-radius: 0.8vw;
+    padding: 1.5vw 3.2vw;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.yellow-button:hover {
+    background-color: black;
+    color: white;
+    border: 0.25vw solid black;
+}
+
+.yellow-button:active {
+    background-color: #FFE599;
+    color: #fed502;
+    border: 0.25vw solid #FFE599;
+}
+
+.ghost-blue-button {
+    font-size: "Exo";
+    font-weight: 700;
+    font-size: 1.3vw;
+    background-color: transparent;
+    color: #0000C4;
+    border: 0.25vw solid #0000C4;
+    border-radius: 0.8vw;
+    padding: 1.5vw 3.2vw;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.ghost-blue-button:hover {
+    background-color: #0000C4;
+    color: white;
+    border: 0.25vw solid #0000C4;
+}
+
+.ghost-blue-button:active {
+    background-color: #8CCAEE;
+    color: #0074CA;
+    border: 0.25vw solid #8CCAEE;
+}
+
+.ghost-black-button {
+    font-size: "Exo";
+    font-weight: 700;
+    font-size: 1.3vw;
+    background-color: transparent;
+    color: black;
+    border: 0.25vw solid black;
+    border-radius: 0.8vw;
+    padding: 1.5vw 3.2vw;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.ghost-black-button:hover {
+    background-color: black;
+    color: white;
+    border: 0.25vw solid black;
+}
+
+.ghost-black-button:active {
+    background-color: #8CCAEE;
+    color: #0074CA;
+    border: 0.25vw solid #8CCAEE;
+}
+
+.nav-link {
+    font-size: "Exo";
+    font-weight: 700;
+    font-size: 1.3vw;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.nav-link:hover {
+    color: #0000C4;
+    text-decoration: underline;
+}
+
+.nav-link:active {
+    color: #0074CA;
+}
+
+/* FOOTER RULESETS */
+
+.foot {
+    font-size: 1vw;
+    margin-top: 9vw;
+}
+
+a {
+    cursor: pointer;
+}
